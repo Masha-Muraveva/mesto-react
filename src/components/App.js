@@ -6,7 +6,7 @@ import Footer from "./Footer.js"
 import PopupWithForm from "./PopupWithForm.js"
 import ImagePopup from "./ImagePopup.js"
 import CurrentUserContext from "../contexts/CurrentUserContext.js";
-import api from "../utils/Api.js"
+import api from "../utils/_Api.js";
 import EditProfilePopup from "./EditProfilePopup.js";
 import EditAvatarPopup from "./EditAvatarPopup.js";
 import AddPlacePopup from "./AddPlacePopup.js";
