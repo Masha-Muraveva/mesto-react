@@ -11,4 +11,5 @@ function ImagePopup({card, onClose}) {
         </div>
   )
 }
+
 export default ImagePopup

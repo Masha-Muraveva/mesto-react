@@ -48,7 +48,7 @@ function AddPlacePopup (props) {
       className="popup__form-data popup__form-data_type_card-title"
       minLength="2"
       maxLength="30"
-      autocomplete="off"
+      autoComplete="off"
       required
       value={ cardName } 
       onChange={ handleChangeCardName }
@@ -59,9 +59,9 @@ function AddPlacePopup (props) {
       type="url"
       id="link-input"
       name="link"
-      placeholder="Ссылка на картинку"
+      placeHolder="Ссылка на картинку"
       className="popup__form-data popup__form-data_type_card-link"
-      autocomplete="off"
+      autoComplete="off"
       required
       value={ cardLink } 
       onChange={ handleChangeCardLink } 

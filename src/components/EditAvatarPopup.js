@@ -6,7 +6,7 @@ function EditAvatarPopup(props) {
  
   React.useEffect(() => {
     avatarRef.current.value = "";
-  })
+  }, [props.isOpen])
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -32,9 +32,9 @@ function EditAvatarPopup(props) {
         type="url" 
         id="avatar-input" 
         name="avatarLink" 
-        placeholder="Ссылка на аватар" 
+        placeHolder="Ссылка на аватар" 
         className="popup__form-data popup__form-data_type_avatar-link" 
-        autocomplete="off"
+        autoComplete="off"
         required
         ref={ avatarRef }
       />
